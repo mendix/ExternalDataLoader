@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ExternalDataLoader.widget.ExternalDataLoader" needsEntityContext="true" 
+	xmlns="http://www.mendix.com/widget/1.0/">
+	<name>External Data Loader</name>
+	<description></description>
+	<icon />
+	<properties>
+		<property key="countryAttr" type="attribute" required="true" isPath="no">
+			<caption>Country Attribute</caption>
+			<category>Data Source</category>
+			<description></description>
+			<attributeTypes>
+				 <attributeType name="String" />
+			</attributeTypes>
+		</property>
+		<property key="url" type="string" required="true" defaultValue="">
+			<caption>URL</caption>
+			<category>Data Source</category>
+			<description></description>
+		</property>
+		<property key="jsonAttr" type="string" required="true" defaultValue="">
+			<caption>JSON attribute name</caption>
+			<category>Data Source</category>
+			<description>The name of the attribute to read from the jsonp response.</description>
+		</property>
+	</properties>
+</widget>

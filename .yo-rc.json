@@ -1,0 +1,11 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "Mendix 2018",
+      "license": "Mendix 2018",
+      "author": "<You>",
+      "boilerplate": "empty",
+      "widgetoptions": []
+    }
+  }
+}
